@@ -1,0 +1,8 @@
+prefix=/home/pnu/catkin_ws/install
+
+Name: dji_pkg
+Description: Description of dji_pkg
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime geometry_msgs rospy std_msgs
